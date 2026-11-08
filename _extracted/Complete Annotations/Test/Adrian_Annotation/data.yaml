@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: workspace-i0gmg
+  project: test-4dib4
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/workspace-i0gmg/test-4dib4/1

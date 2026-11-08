@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: rhoge-diaz
+  project: helmets-vaaqd
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/rhoge-diaz/helmets-vaaqd/dataset

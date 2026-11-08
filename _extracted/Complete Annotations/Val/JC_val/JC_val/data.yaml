@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: seedews-workspace
+  project: helmet-rider-motorcycle
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seedews-workspace/helmet-rider-motorcycle/dataset/1

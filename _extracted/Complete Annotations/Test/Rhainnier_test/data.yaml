@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: rhainnier-lathrop
+  project: motorcycle-helmet-and-rider-anno
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rhainnier-lathrop/motorcycle-helmet-and-rider-anno/dataset/1

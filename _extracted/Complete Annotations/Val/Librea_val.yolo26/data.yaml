@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: marrah-princess-librea
+  project: helmet_detection-sla76
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/marrah-princess-librea/helmet_detection-sla76/dataset

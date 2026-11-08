@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['0 motorcycle', '1 rider', '2 helmet']
+
+roboflow:
+  workspace: elvies-workspace
+  project: my-first-project-pr7ur
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/elvies-workspace/my-first-project-pr7ur/dataset

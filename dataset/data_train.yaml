@@ -1,0 +1,8 @@
+path: D:\helmet_gr2 (2)\dataset
+train: D:\helmet_gr2 (2)\dataset\train\images
+val: D:\helmet_gr2 (2)\dataset\val\images
+names:
+- motorcycle
+- rider
+- helmet
+test: D:\helmet_gr2 (2)\dataset\test\images

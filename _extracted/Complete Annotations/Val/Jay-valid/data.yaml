@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'motorcycle', 'rider']
+
+roboflow:
+  workspace: ground-truth-projections
+  project: jay-val
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/ground-truth-projections/jay-val/3
